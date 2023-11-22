@@ -2,6 +2,7 @@ import sushi from '../../assets/images/sushi.png'
 import massa from '../../assets/images/massa.png'
 import Restaurante from '../../models/Restaurante'
 import ListaRestaurantes from '../../components/RestauranteLista'
+import Header from '../../components/Header'
 
 const menu: Restaurante[] = [
   {
@@ -64,7 +65,10 @@ const menu: Restaurante[] = [
 
 const Home = () => (
   <>
-    <ListaRestaurantes restaurantes={menu} />
+    <Header />
+    <div className="container">
+      <ListaRestaurantes restaurantes={menu} />
+    </div>
   </>
 )
 

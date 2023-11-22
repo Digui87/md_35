@@ -7,7 +7,6 @@ export const BannerImg = styled.header`
   background-image: url(${fundo});
   display: block;
   padding: 40px;
-  margin-bottom: 80px;
 `
 
 export const HeaderContainer = styled.div`

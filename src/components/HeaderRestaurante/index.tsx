@@ -1,6 +1,6 @@
-import fundo from '../assets/images/fundo.png'
-import fundoRestaurante from '../assets/images/fundo_restaurante.png'
-import Logo from '../assets/images/logo.png'
+import fundo from '../../assets/images/fundo.png'
+import fundoRestaurante from '../../assets/images/fundo_restaurante.png'
+import Logo from '../../assets/images/logo.png'
 import { BannerImg } from '../Header/styles'
 import * as S from './style'
 
@@ -15,7 +15,6 @@ const HeaderRestaurante = () => (
         <S.Cart>0 produtos no carrinho</S.Cart>
       </S.HeaderContent>
     </BannerImg>
-
     <S.BannerRestaurant style={{ backgroundImage: `url(${fundoRestaurante})` }}>
       <div className="container">
         <S.TagType>Italiana</S.TagType>

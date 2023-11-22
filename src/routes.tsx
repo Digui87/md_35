@@ -5,7 +5,7 @@ import Local from './pages/Local'
 const Rotas = () => (
   <Routes>
     <Route path="/" element={<Home />} />
-    <Route path="/local" element={<Local />} />
+    <Route path="/restaurante/:id" element={<Local />} />
   </Routes>
 )
 
