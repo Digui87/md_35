@@ -17,11 +17,17 @@ export const Pratos = styled.div`
     width: 320px;
     height: 180px;
   }
-  h3 {
+  h4 {
+    margin-top: 8px;
     margin-bottom: 8px;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 18px;
   }
   p {
     line-height: 22px;
+    font-weight: 400;
+    font-size: 14px;
   }
 
   button {
@@ -29,7 +35,7 @@ export const Pratos = styled.div`
     width: 100%;
     height: 24px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 700;
     color: ${cores.vermelhoClaro};
     background-color: ${cores.corTexto};
     border: none;

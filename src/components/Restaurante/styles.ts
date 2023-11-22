@@ -26,9 +26,14 @@ export const Title = styled.p`
   display: flex;
   justify-content: space-between;
   color: ${cores.vermelhoClaro};
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-right: 8px;
+
   span {
     color: gold;
+    margin-left: 8px;
   }
 `
 
@@ -38,9 +43,11 @@ export const Types = styled.div`
   right: 16px;
 `
 export const Description = styled.p`
-  color: ${cores.vermelhoClaro};
-  line-height: 22px;
   margin-top: 16px;
+  color: ${cores.vermelhoClaro};
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
 `
 
 export const LinkCard = styled(Link)`
